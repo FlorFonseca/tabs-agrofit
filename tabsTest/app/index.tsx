@@ -10,7 +10,7 @@ import { router } from "expo-router";
 /**
  * Agregué este index a la plantilla que el tutorial de expo ya da, así es la primer pantalla que aparece.
  * Usé expo-router para manejar la navegación a la pantalla de home más facil, como es un fake login decidí que el 
- * botón vaya igual al inicio.
+ * botón vaya igual al inicio
  * @returns La pantalla de login
  */
 export default function LoginScreen() {
