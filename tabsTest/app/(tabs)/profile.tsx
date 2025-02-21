@@ -7,7 +7,14 @@ import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { IconSymbol } from "@/components/ui/IconSymbol";
 
-export default function profile() {
+
+/**
+ * Esta tab funcionaría como el perfil del usuario, en este caso se puede modificar el nombre que se muestra 
+ * en pantalla al cambiar la variable userName.
+ * Incluye una foto del usuario y un mensaje de bienvenida
+ * @returns La pantalla del perfil
+ */
+export default function Profile() {
   let userName = "Don Omar";
   return (
     <ParallaxScrollView

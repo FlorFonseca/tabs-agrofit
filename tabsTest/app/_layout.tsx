@@ -27,6 +27,9 @@ export default function RootLayout() {
     return null;
   }
 
+  /**
+   * Agregué la screen de Login
+   */
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <Stack>

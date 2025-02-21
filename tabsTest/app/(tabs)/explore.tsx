@@ -7,7 +7,11 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
-
+/**
+ * Decidí crear un array con nombres de canciones, les puse el id ya que es una mejor forma a la hora de usar el .map
+ * (de esta manera no tengo que usar el index como la key :) )
+ * @returns Una lista de canciones
+ */
 export default function ExploreTab() {
   const songs = [{id:1, title: "Si Tu Sabes"}, {id: 2, title: "No Es Lluvia De Verano"}, {id: 3, title:"Corazón Partío"}, {id:4, title:"Why Why Why"}, {id: 5, title:"Emotions"}, {id: 6, title:"Baianá"}, {id:7, title:"Quiero Saber De Ti"}];
 

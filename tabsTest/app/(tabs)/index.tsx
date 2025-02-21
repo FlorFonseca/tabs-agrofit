@@ -6,6 +6,10 @@ import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { IconSymbol } from "@/components/ui/IconSymbol";
 
+/**
+ * Esta es la página de inicio, incluye un mensaje de bienvenida, una descripción y una imágen.
+ * @returns La pantalla de inicio
+ */
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
